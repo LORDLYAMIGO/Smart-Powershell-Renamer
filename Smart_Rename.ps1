@@ -1,4 +1,4 @@
-$ApiKey = "AIzaSyCWzHPzI9clO7dYyeaY7IN1_rWV34vZIA0"
+$ApiKey = "---"
 
 # ====== API KEY VALIDATION ======
 if ($ApiKey -eq "YOUR_API_KEY_HERE" -or [string]::IsNullOrWhiteSpace($ApiKey)) {
@@ -212,4 +212,5 @@ Write-Host "   Successfully renamed: $successCount file(s)" -ForegroundColor Gre
 if ($skippedCount -gt 0) {
     Write-Host "   Skipped: $skippedCount file(s)" -ForegroundColor Yellow
 }
+
 Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Gray
